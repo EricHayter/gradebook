@@ -1,0 +1,30 @@
+{
+  "name": "gradebook",
+  "version": "1.0.0",
+  "description": "web app to keep track of grades from school assessments",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricHayter/gradebook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricHayter/gradebook/issues"
+  },
+  "homepage": "https://github.com/EricHayter/gradebook#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.9.2",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "keywords": []
+}
